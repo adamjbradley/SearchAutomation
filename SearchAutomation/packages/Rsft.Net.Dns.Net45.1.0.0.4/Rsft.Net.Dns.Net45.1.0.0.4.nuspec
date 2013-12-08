@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Rsft.Net.Dns.Net45</id>
+    <version>1.0.0.4</version>
+    <title>Rsft.Net.Dns (Net45)</title>
+    <authors>Rolosoft Ltd</authors>
+    <owners>Rolosoft Ltd</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://code.google.com/p/dns-resolver/</projectUrl>
+    <iconUrl>https://dl.dropboxusercontent.com/u/32051584/logos/rsftlogo32x32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Advanced DNS resolution for .NET (Net45).
+
+Provides enhanced DNS lookups.
+
+Maintains full method signature compatibility with BCL System.Net.Dns to allow hotswap out of existing System.Net.Dns code with ease.
+
+Written in 100% managed .NET code.
+
+**EXTRA FEATURES NOT FOUND IN System.Net.Dns**
+ - Fully parsed resource records including (but not limited to): A, CNAME, HINFO, MB, MD, MF, MG, MINFO, MR, MX, NS, NULL, PTR, SOA, SRV, TXT, WKS, X25.
+ - Configuration options available for selecting configurable DNS servers (for failover), timeouts and much more.
+
+PLEASE NOTE: this version is for .NET 4.5 only as we make extensive use of the async / await features first introduced in .NET 4.5. For frameworks prior to 4.5, please see Rsft.Net.Dns.Net20.</description>
+    <summary>Advanced DNS resolution for .NET.</summary>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <language>en-US</language>
+    <tags>rolosoft DNS</tags>
+    <dependencies>
+      <dependency id="Rsft.Net.Dns.Core" version="1.0.0.3" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Rsft.Net.Dns.Core</id>
+    <version>1.0.0.3</version>
+    <title>Rsft.Net.Dns.Core</title>
+    <authors>Rolosoft Ltd</authors>
+    <owners>Rolosoft Ltd</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://code.google.com/p/dns-resolver/</projectUrl>
+    <iconUrl>https://dl.dropboxusercontent.com/u/32051584/logos/rsftlogo32x32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Advanced DNS resolution for .NET (Core).
+
+This is a set of common library functions to be used as part of other Rolosoft DNS resolver software.
+
+Please note: Rsft.Net.Dns.Core is designed to be used with other libraries such as Rsft.Net.Dns.Net20.</description>
+    <summary>Advanced DNS resolution for .NET.</summary>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <language>en-US</language>
+    <tags>rolosoft DNS</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework2.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
